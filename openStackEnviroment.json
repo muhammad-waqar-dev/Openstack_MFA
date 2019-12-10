@@ -1,0 +1,174 @@
+{
+	"id": "b1f0f4dc-8ba1-46e9-913f-23696f90ed81",
+	"name": "Openstack 9 Copy",
+	"values": [
+		{
+			"key": "OS_PROJECT_NAME",
+			"value": "admin",
+			"enabled": true
+		},
+		{
+			"key": "OS_USERNAME",
+			"value": "cloud_admin",
+			"enabled": true
+		},
+		{
+			"key": "OS_PASSWORD",
+			"value": "password",
+			"enabled": true
+		},
+		{
+			"key": "IP",
+			"value": "10.81.1.150",
+			"enabled": true
+		},
+		{
+			"key": "KEYSTONE_PORT",
+			"value": "5000",
+			"enabled": true
+		},
+		{
+			"key": "NOVA_V2_PORT",
+			"value": "8774",
+			"enabled": true
+		},
+		{
+			"key": "OS_TENANT_ID",
+			"value": "7f74bac0c5624988a0815d4aaf2ff049",
+			"enabled": true
+		},
+		{
+			"key": "HORIZON_PORT",
+			"value": "35357",
+			"enabled": true
+		},
+		{
+			"key": "project_id",
+			"value": "2571501d7c2a4b208b2f6682bba644a4",
+			"enabled": true
+		},
+		{
+			"key": "user_id",
+			"value": "4f74127343bc4539aed63a2cac2c8d87",
+			"enabled": true
+		},
+		{
+			"key": "role_id",
+			"value": "e961e8fd12a048cab1d5b275867a010f",
+			"enabled": true
+		},
+		{
+			"key": "host_name",
+			"value": "packstack.localdomain",
+			"enabled": true
+		},
+		{
+			"key": "server_id",
+			"value": "694f2d58-845f-453c-8ff5-7ef0500d5cc7",
+			"enabled": true
+		},
+		{
+			"key": "tenant_id",
+			"value": "37ca5c08b96e4fb592d96406535237eb",
+			"enabled": true
+		},
+		{
+			"key": "domain_id",
+			"value": "13a98698c31d49b691433ff609d98cd2",
+			"enabled": true
+		},
+		{
+			"key": "project_description",
+			"value": "The services project",
+			"enabled": true
+		},
+		{
+			"key": "project_name",
+			"value": "services",
+			"enabled": true
+		},
+		{
+			"key": "default_project_id",
+			"value": "72dbdddc64194f01ba46f16c63f72d00",
+			"enabled": true
+		},
+		{
+			"key": "user_enabled",
+			"value": "true",
+			"enabled": true
+		},
+		{
+			"key": "user_name",
+			"value": "saqib",
+			"enabled": true
+		},
+		{
+			"key": "user_password",
+			"value": "password",
+			"enabled": true
+		},
+		{
+			"key": "domain_description",
+			"value": "Quality assurance company",
+			"enabled": true
+		},
+		{
+			"key": "domain_enabled",
+			"value": "true",
+			"enabled": true
+		},
+		{
+			"key": "domain_name",
+			"value": "qa_customer",
+			"enabled": true
+		},
+		{
+			"key": "role_name",
+			"value": "admin",
+			"enabled": true
+		},
+		{
+			"key": "service_description",
+			"value": "OpenStack Rating Service",
+			"enabled": true
+		},
+		{
+			"key": "service_name",
+			"value": "cloudkitty",
+			"enabled": true
+		},
+		{
+			"key": "service_type",
+			"value": "rating",
+			"enabled": true
+		},
+		{
+			"key": "endpoint_interface",
+			"value": "internal",
+			"enabled": true
+		},
+		{
+			"key": "endpoint_url",
+			"value": "http://10.81.1.150:8889",
+			"enabled": true
+		},
+		{
+			"key": "region_id",
+			"value": "RegionOne",
+			"enabled": true
+		},
+		{
+			"key": "service_id",
+			"value": "a5dd949bd7a444e4b63d443220ae45e8",
+			"enabled": true
+		},
+		{
+			"key": "endpoint_id",
+			"value": "f89e896807f640fc89aab12266fddb35",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2019-11-21T11:19:02.373Z",
+	"_postman_exported_using": "Postman/7.11.0"
+}

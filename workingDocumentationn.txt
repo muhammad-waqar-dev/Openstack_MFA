@@ -1,0 +1,47 @@
+Open Stack Steps:Basic Level
+
+learning sites official https://docs.openstack.org/glance/pike/contributor/architecture.html
+
+1steps:first install centos #redhat k installation steps or centos k installation same hn
+2steps: install packstack
+3steps:
+4steps:
+5steps:
+6steps:
+
+
+DashBoard Demo youtube
+https://www.youtube.com/watch?v=2a9md9icu9c
+
+
+MFA Multi-factor Authentication:
+1-MFA Rules #token bnana mobile pr bhejna ya face detection wagera krna
+2-MFA Enable #multi factor authentication krni ha ya nhi
+enable MFA practical implement
+3-create totp
+4-google authentication and qr code method
+5-receive ok
+
+Django hasan sir
+https://docs.djangoproject.com/en/2.2/intro/tutorial02/
+
+openstack book saqib arfeen
+http://gen.lib.rus.ec/book/index.php?md5=E42666823EFF247447968BAF98E2FF7D
+
+
+$ curl -X POST https://localhost:5000/v3.0/tokens -d '{"auth":{"passwordCredentials":{"username": "admin", "password":"123"}, "tenantId":"37ca5c08b96e4fb592d96406535237eb",'Content-Length: 109'}}' -H 'Content-type: application/json'
+
+
+create project:
+openstack project create --description 'MFA Testing project' mfaproject --domain default
+create user:
+openstack user create --project mfaproject --password password mfauser
+create role:
+openstack role create mfarole
+assign project to user:
+openstack role add --user mfauser --project project_id mfarole
+role assign list:
+openstack role assignment list 
+role assignment to a particular member show:
+openstack role assignment list --user mfauser --project mfaproject --names
+
